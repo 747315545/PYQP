@@ -1,12 +1,13 @@
 <resources>
     <string name="app_name">PYQP</string>
     <string name="forget_password"><u>忘记密码？</u></string>
-    <string name="name_hint">&#160;&#160;邮箱/手机号</string>
-    <string name="password_hint">&#160;&#160;登陆密码</string>
-    <string name="regist_password_hint">&#160;&#160;请输入密码</string>
-    <string name="code_hint">&#160;&#160;请输入验证码</string>
+    <string name="name_hint">&#160;&#160;&#160;邮箱/手机号</string>
+    <string name="password_hint">&#160;&#160;&#160;登陆密码</string>
+    <string name="regist_password_hint">&#160;&#160;&#160;请输入密码</string>
+    <string name="code_hint">&#160;&#160;&#160;请输入验证码</string>
     <string name="get_code">获取验证码</string>
     <string name="login">登录</string>
-    <string name="regist">立即注册</string>
+    <string name="regist">注册</string>
+    <string name="regist_immediately">立即注册</string>
     <string name="agreement">已阅读并同意《PIN-IT用户协议》</string>
 </resources>

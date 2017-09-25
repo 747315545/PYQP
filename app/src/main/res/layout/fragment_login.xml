@@ -10,9 +10,10 @@
         android:id="@+id/edit_login_name"
         android:layout_width="match_parent"
         android:layout_height="40.0dp"
-        android:layout_marginTop="40.0dp"
+        android:layout_marginTop="30.0dp"
         android:background="@drawable/bg_editview_normal"
-        android:hint="@string/name_hint" />
+        android:hint="@string/name_hint"
+        android:textSize="12.0sp" />
 
     <EditText
         android:id="@+id/edit_login_password"
@@ -21,7 +22,8 @@
         android:layout_below="@id/edit_login_name"
         android:layout_marginTop="20.0dp"
         android:background="@drawable/bg_editview_normal"
-        android:hint="@string/password_hint" />
+        android:hint="@string/password_hint"
+        android:textSize="12.0sp" />
 
     <TextView
         android:id="@+id/tv_forgetpassword"
@@ -33,7 +35,7 @@
         android:background="@null"
         android:text="@string/forget_password"
         android:textColor="@color/colorPrimary"
-        android:textSize="15.0sp" />
+        android:textSize="10.0sp" />
 
     <Button
         android:id="@+id/btn_login"
@@ -41,16 +43,16 @@
         android:layout_height="40.0dp"
         android:layout_below="@id/tv_forgetpassword"
         android:layout_marginTop="10.0dp"
-        android:background="@drawable/bg_button_normal"
+        android:background="@drawable/button_style"
         android:gravity="center"
         android:text="@string/login"
-        android:textSize="20.0sp" />
+        android:textSize="15.0sp" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="40.0dp"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="10.0dp"
+        android:layout_marginBottom="25.0dp"
         android:orientation="horizontal">
 
         <LinearLayout
@@ -61,9 +63,9 @@
 
             <ImageView
                 android:id="@+id/img_login_weibo"
-                android:layout_width="40.0dp"
-                android:layout_height="40.0dp"
-                android:src="@mipmap/ic_launcher" />
+                android:layout_width="28.0dp"
+                android:layout_height="28.0dp"
+                android:src="@drawable/weibo_icon" />
         </LinearLayout>
 
         <LinearLayout
@@ -74,9 +76,9 @@
 
             <ImageView
                 android:id="@+id/img_login_qq"
-                android:layout_width="40.0dp"
-                android:layout_height="40.0dp"
-                android:src="@mipmap/ic_launcher" />
+                android:layout_width="28.0dp"
+                android:layout_height="28.0dp"
+                android:src="@drawable/qq_icon" />
         </LinearLayout>
 
         <LinearLayout
@@ -87,9 +89,9 @@
 
             <ImageView
                 android:id="@+id/img_login_weixin"
-                android:layout_width="40.0dp"
-                android:layout_height="40.0dp"
-                android:src="@mipmap/ic_launcher" />
+                android:layout_width="28.0dp"
+                android:layout_height="28.0dp"
+                android:src="@drawable/weixin_icon" />
         </LinearLayout>
     </LinearLayout>
 </RelativeLayout>

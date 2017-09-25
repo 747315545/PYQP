@@ -9,10 +9,11 @@
     <EditText
         android:id="@+id/edit_regist_name"
         android:layout_width="match_parent"
-        android:layout_height="50.0dp"
-        android:layout_marginTop="40.0dp"
+        android:layout_height="40.0dp"
+        android:layout_marginTop="30.0dp"
         android:background="@drawable/bg_editview_normal"
-        android:hint="@string/name_hint" />
+        android:hint="@string/name_hint"
+        android:textSize="12.0sp" />
 
     <EditText
         android:id="@+id/edit_regist_password"
@@ -22,7 +23,8 @@
         android:layout_below="@+id/edit_regist_name"
         android:layout_marginTop="18dp"
         android:background="@drawable/bg_editview_normal"
-        android:hint="@string/regist_password_hint" />
+        android:hint="@string/regist_password_hint"
+        android:textSize="12.0sp" />
 
     <EditText
         android:id="@+id/edit_regist_code"
@@ -31,7 +33,8 @@
         android:layout_below="@id/edit_regist_password"
         android:layout_marginTop="20.0dp"
         android:background="@drawable/bg_editview_normal"
-        android:hint="@string/code_hint" />
+        android:hint="@string/code_hint"
+        android:textSize="12.0sp" />
 
     <Button
         android:id="@+id/btn_getcode"
@@ -39,21 +42,21 @@
         android:layout_height="40.0dp"
         android:layout_alignBottom="@id/edit_regist_code"
         android:layout_alignRight="@id/edit_regist_code"
-        android:background="@null"
+        android:background="@drawable/btn_getcode_normal"
         android:text="@string/get_code"
-        android:textColor="@color/colorPrimary"
-        android:textSize="15.0sp" />
+        android:textColor="@drawable/text_style"
+        android:textSize="10.0sp" />
 
     <Button
         android:id="@+id/btn_regist"
         android:layout_width="match_parent"
         android:layout_height="40.0dp"
         android:layout_below="@id/edit_regist_code"
-        android:layout_marginTop="10.0dp"
-        android:background="@drawable/bg_button_normal"
+        android:layout_marginTop="15.0dp"
+        android:background="@drawable/button_style"
         android:gravity="center"
-        android:text="@string/regist"
-        android:textSize="20.0sp" />
+        android:text="@string/regist_immediately"
+        android:textSize="15.0sp" />
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -69,7 +72,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/agreement"
-            android:textSize="12.0sp" />
+            android:textSize="8.0sp" />
 
         <CheckBox
             android:id="@+id/cb_agree"
