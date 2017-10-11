@@ -1,5 +1,6 @@
 package com.fly.pyqp.fragment;
 
+import android.content.Intent;
 import android.support.v4.app.Fragment;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -8,6 +9,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.EditText;
 
+import com.fly.pyqp.MainActivity;
 import com.fly.pyqp.R;
 
 /**
@@ -42,6 +44,8 @@ public class LoginFragment extends Fragment implements View.OnClickListener {
             case R.id.tv_forgetpassword:
                 break;
             case R.id.btn_login:
+                getActivity().startActivity(new Intent(getActivity(), MainActivity.class));
+                getActivity().finish();
                 break;
             case R.id.img_login_weibo:
                 break;

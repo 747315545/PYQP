@@ -2,7 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFFFFF"
+    android:background="@color/colorWhite"
     android:paddingLeft="40.0dp"
     android:paddingRight="40.0dp">
 
@@ -13,7 +13,8 @@
         android:layout_marginTop="30.0dp"
         android:background="@drawable/bg_editview_normal"
         android:hint="@string/name_hint"
-        android:textSize="12.0sp" />
+        android:textCursorDrawable="@drawable/cursor_style"
+        android:textSize="15.0sp" />
 
     <EditText
         android:id="@+id/edit_login_password"
@@ -22,8 +23,9 @@
         android:layout_below="@id/edit_login_name"
         android:layout_marginTop="20.0dp"
         android:background="@drawable/bg_editview_normal"
+        android:textCursorDrawable="@drawable/cursor_style"
         android:hint="@string/password_hint"
-        android:textSize="12.0sp" />
+        android:textSize="15.0sp" />
 
     <TextView
         android:id="@+id/tv_forgetpassword"

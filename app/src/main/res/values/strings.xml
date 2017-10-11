@@ -10,4 +10,8 @@
     <string name="regist">注册</string>
     <string name="regist_immediately">立即注册</string>
     <string name="agreement">已阅读并同意《PIN-IT用户协议》</string>
+    <string name="name">Pin-it</string>
+    <string name="recent_work">最近作品</string>
+    <string name="homepage">首页</string>
+    <string name="mine">我的</string>
 </resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<include
+    android:id="@+id/ll_buttom"
+    android:layout_height="45.0dp"
+     android:layout_width="match_parent"
+    android:layout_alignParentBottom="true"
+    layout="@layout/layout_buttom"/>
+
+
+    <ImageView
+        android:id="@+id/img_connect_device"
+        android:layout_width="match_parent"
+        android:layout_height="60.0dp"
+        android:src="@drawable/connect_device"
+        android:layout_above="@id/ll_buttom"
+        android:scaleType="fitXY"/>
+
+    <FrameLayout
+        android:id="@+id/fl_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/img_connect_device">
+    </FrameLayout>
+
+    <com.fly.pyqp.widget.CircleImageView
+        android:id="@+id/img_shutter"
+        android:layout_width="50.0dp"
+        android:layout_height="50.0dp"
+        android:src="@drawable/shutter"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="8.0dp" />
+</RelativeLayout>
